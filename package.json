@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx watch src/index.ts",
-    "start": "node dist/index.js",
-    "build": "tsup src/index.ts --minify"
+    "dev": "nodemon src/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,8 +14,6 @@
     "dotenv": "^16.4.7"
   },
   "devDependencies": {
-    "tsup": "^8.3.5",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.2"
+    "nodemon": "^2.0.15"
   }
 }
